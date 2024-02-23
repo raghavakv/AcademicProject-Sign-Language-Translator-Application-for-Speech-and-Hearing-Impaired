@@ -1,0 +1,110 @@
+/* Top Container elements */
+.topContainer{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+	height: 89.5vh;
+    background: #2b2f77;
+    background: -webkit-linear-gradient(0deg, #2b2f77 0%, #141852 50%, #070b34 100%);
+    background: linear-gradient(0deg, #2b2f77 0%, #141852 50%, #070b34 100%);
+}
+.contents{
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+.titles{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding-left: 10%;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #fff;
+    font-size: 5rem;
+}
+.image1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+.mainImage{
+    height: 70%;
+}
+
+/* Middle Container elements */
+
+.middleContainer{
+    width: 100%;
+	height: 100vh;
+}
+.container1{
+    width: 100%;
+	height: 50%;
+    background: #2b2f77;
+    border-style: solid;
+    border-width: 0.5rem 0.5rem 0.25rem 0.5rem;
+    border-color:#2b2f77 ;
+}.container2{
+    width: 100%;
+	height: 50%;
+    background: #2b2f77;
+    border-style: solid;
+    border-width: 0.25rem 0.5rem 0.5rem 0.5rem;
+    border-color:#2b2f77 ;
+}
+.aslContainer{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+    background: #ff0000;
+    background: -webkit-linear-gradient(135deg, #ff0000 0%, #ffffff 50%, #0e00d2 100%);
+    background: linear-gradient(135deg, #ff0000 0%, #ffffff 50%, #0e00d2 100%);
+}   
+.islContainer{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+    background: #ff671f;
+    background: -webkit-linear-gradient(135deg, #ff671f 0%, #ffffff 50%, #046a38 100%);
+    background: linear-gradient(135deg, #ff671f 0%, #ffffff 50%, #046a38 100%);
+} 
+.imageContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+}
+.logo{
+    height: 80%;
+}
+.contents1{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+}
+.text{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.links{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.link1{
+    width: 40%;
+    height: 3rem;
+}
+

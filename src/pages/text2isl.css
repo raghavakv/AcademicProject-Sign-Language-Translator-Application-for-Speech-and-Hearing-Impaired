@@ -1,0 +1,36 @@
+.text2isl-container {
+    display: flex;
+    flex-direction: column;
+    background-image: url('../images/background.jpg');
+    background-size: cover;
+    height: 100vh;
+  }
+  
+  .text2isl-input-container {
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .text2isl-input {
+    width: 60%;
+    height: 3.5rem;
+    border-radius: 1.75rem;
+    padding-left: 1.75rem;
+    font-size: 1.5rem;
+  }
+  
+  .text2isl-image-container {
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .text2isl-image {
+    margin: 10px;
+    height: 100px;
+    border-radius: 20%;
+  }
+  
